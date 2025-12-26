@@ -1,0 +1,59 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tasty Bites</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+
+<header>
+    <h1>Tasty Bites Restaurant</h1>
+    <p>Delicious Food, Quality Service</p>
+</header>
+
+<nav>
+    <a href="/">Home</a>
+    <a href="/contact/">Contact</a>
+</nav>
+
+<section>
+    <h2>Our Menu</h2>
+
+    <div class="menu-item">
+        <img src="{% static 'images/pizza.jpg' %}">
+        <p>Pizza - ₹199</p>
+    </div>
+
+    <div class="menu-item">
+        <img src="{% static 'images/burger.jpg' %}">
+        <p>Burger - ₹149</p>
+    </div>
+
+    <div class="menu-item">
+        <img src="{% static 'images/pasta.jpg' %}">
+        <p>Pasta - ₹179</p>
+    </div>
+
+    <div class="menu-item">
+        <img src="{% static 'images/salad.jpg' %}">
+        <p>Salad - ₹99</p>
+    </div>
+</section>
+
+<section>
+    <h2>Our Services</h2>
+    <ul>
+        <li>Dine In</li>
+        <li>Take Away</li>
+        <li>Online Delivery</li>
+        <li>Catering</li>
+    </ul>
+</section>
+
+<footer>
+    <p>📍 Chennai | ☎ 9876543210</p>
+</footer>
+
+</body>
+</html>

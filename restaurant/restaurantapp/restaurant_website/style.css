@@ -1,0 +1,47 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: #fff7ed;
+}
+
+header {
+    background-color: #e67e22;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+.menu-item {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.menu-item img {
+    width: 150px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
